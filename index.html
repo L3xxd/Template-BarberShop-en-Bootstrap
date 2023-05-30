@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap Links -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+      <!-- Custom Links -->
+      <link rel="icon" type="image/png" href="./assets/icon-page.svg" />
+      <title>Barber Shop</title>
+   </head>
+   <body>
+      <section class="nav-section sticky-top">
+         <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+               <span class="navbar-brand" >Barber Shop</span>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                  <div class="navbar-nav ms-lg-auto">
+                     <a class="nav-link" href="#inicio">Inicio</a>
+                     <a class="nav-link" href="#servicios">Servicios</a>
+                     <a class="nav-link" href="#contacto">Contacto</a>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </section>
+      <section class="main-section container">
+         <!-- Inicio -->
+         <div id="inicio" class="container-fluid mb-4">
+            <div class="row">
+               <div id="about" class="col-sm-12 col-md-6 text-start ">
+                  <h2>Acerca de nosotros</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra fermentum scelerisque. Aliquam ut erat non lacus placerat sodales. Fusce et semper odio. Etiam a tristique leo, interdum pulvinar urna. Integer maximus posuere nunc. Etiam sodales sodales ligula vel placerat.</p>
+               </div>
+               <div id="logo" class="col-sm-12 col-md-6 d-flex justify-content-center align-content-center text-center pb-2 pt-2">
+                  <img class="img-fluid" src="/assets/icon-page.svg" alt="" width="200" height="10">
+               </div>
+            </div>
+         </div>
+         <!-- Servicios -->
+         <div id="servicios" class="container-fluid mb-2"  >
+            <h2>Servicios</h2>
+            <div class="row mb-4">
+               <!-- card-1 -->
+               <div class="col-sm-12 col-md-4 d-flex justify-content-center align-content-center text-center pb-2 pt-2">
+                  <div class="card" style="width: 18rem;">
+                     <img src="./assets/services/c-caballero.jpg" class="card-img-top img-fluid" alt="Corte para Caballero" width="200" height="200">
+                     <div class="card-body">
+                        <p class="card-text fs-4">Corte para Caballero</p>
+                        <p class="card-text">Precio: $$$</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- card-2 -->
+               <div class="col-sm-12 col-md-4 d-flex justify-content-center align-content-center text-center pb-2 pt-2">
+                  <div class="card" style="width: 18rem;">
+                     <img src="./assets/services/c-dama.jpg" class="card-img-top img-fluid" alt="Corte para Dama" width="200" height="200">
+                     <div class="card-body">
+                        <p class="card-text fs-4">Corte para Dama</p>
+                        <p class="card-text">Precio: $$$</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- card-3-->
+               <div class="col-sm-12 col-md-4 d-flex justify-content-center align-content-center text-center pb-2 pt-2">
+                  <div class="card" style="width: 18rem;">
+                     <img src="./assets/services/c-kid.jpg" class="card-img-top img-fluid" alt="Corte para Niño" width="200" height="200">
+                     <div class="card-body">
+                        <p class="card-text fs-4">Corte para Niño</p>
+                        <p class="card-text">Precio: $$$</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carrusel mb-2">
+               <div id="carouselExample" class="carousel slide">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img src="./assets/examples/1.webp" class="img-fluid d-block w-100" >
+                     </div>
+                     <div class="carousel-item">
+                        <img src="./assets/examples/2.webp" class="img-fluid d-block w-100">
+                     </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <!-- Contacto -->
+         <div id="contacto" class="container-fluid mb-4 ">
+            <h2>Contactanos</h2>
+            <div class="links d-flex justify-content-center align-content-center text-center">
+               <div>
+                  <a class="ms-3 me-3 mt-3 mb-3 btn btn-primary bi bi-telephone-fill" href="#" role="button"> Teléfono</a>
+                  <a class="ms-3 me-3 mt-3 mb-3 btn btn-primary bi bi-whatsapp" href="#" role="button"> Whatsapp</a>
+                  <a class="ms-3 me-3 mt-3 mb-3 btn btn-primary bi bi-messenger" href="#" role="button"> Messenger</a>
+                  <a class="ms-3 me-2 mt-3 mb-3 btn btn-primary bi bi-instagram" href="#" role="button"> Instagram</a>
+                  <a class="ms-3 me-2 mt-3 mb-3 btn btn-primary bi bi bi-geo-alt-fill" href="#" role="button"> Domicilio</a>
+               </div>
+            </div>
+            <div class="d-flex justify-content-center align-content-center text-center pb-2 pt-2">
+               <img class="img-fluid" src="/assets/map.jpg" alt="API de google maps" width=600" height="600">
+            </div>
+         </div>
+      </section>
+      <section class="footer-section ">
+         <footer>
+            <div class="container text-center">
+               <small>&copy; 2023 Todos los derechos reservados</small>
+            </div>
+         </footer>
+      </section>
+      <!-- Bootstrap JavaScript -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
